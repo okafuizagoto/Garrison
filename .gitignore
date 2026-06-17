@@ -1,0 +1,21 @@
+# Docker data volumes
+.data/
+
+# Environment files (copy from .env.example)
+app.env
+workspace/**/.env
+
+# Go build artifacts
+workspace/**/vendor/
+workspace/**/*.exe
+workspace/**/*.test
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
